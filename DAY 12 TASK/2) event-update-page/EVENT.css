@@ -1,12 +1,78 @@
-body{
-    margin: 0px;
-    display: flex;
+html {
+  height: 100vh;
+  background-color: red;
 }
 
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
 
-.banner{
-    width: 100px ;
-    height: 100px ;
-    border: 10px;
-    border-color: black;
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+h3{
+    font-weight: lighter;
+}
+
+.card{
+    width: 1300px ;
+    height: 600px ;
+    justify-content: center;
+    margin-top: 50px;
+    border: 5px solid black;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+.banner {
+    width: 1200px ;
+    height: 430px ;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 45px;
+    border: 3px groove black;
+    border-radius: 20px;
+    background-color:rgb(13,186,75);
+    
+}
+
+.eventbanner{
+    width: 280px ;
+    height: 380px;
+    margin-top: 25px;
+    margin-left: 100px;
+    position: absolute;
+}
+
+.information{
+    margin-left: 550px;
+    margin-top: 90px;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+    background: white;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.submit{
+    width: 200px;
+    height: 35px;
+    border-radius: 30PX;
+    margin-left: 700px;
+    margin-top: 30px;
+    background-color: gray;
+    display: inline-block;
+    border: 2px solid black;
+}
+button:hover{
+    background-color: blue;
 }
