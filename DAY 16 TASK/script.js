@@ -1,7 +1,5 @@
 let main_div = document.createElement("div")
 main_div.classList.add("container", "mt-5", "text-center")
-main_div.style.backgroundColor = "#e0ece4"
-
 
 let row = document.createElement("div")
 row.classList.add("row")
@@ -9,7 +7,7 @@ row.classList.add("row")
 let counter = document.createElement("div")
 counter.classList.add("col-md-4", "offset-md-4", "text-center", "rounded", "border", "align-middle")
 counter.style.color = "white"
-counter.style.backgroundColor = "#ff4b5c"
+counter.style.backgroundColor = "black"
 
 let message = document.createElement("h1")
 message.classList.add("heading")
@@ -43,6 +41,7 @@ setTimeout(() => {
                                                 message.style.fontSize = "5rem"
                                                 counter.classList.add("col-md-12")
                                                 counter.classList.remove("offset-md-4")
+                                                
                                             }, 1000);
                                         }, 1000);
                                     }, 1000);    
