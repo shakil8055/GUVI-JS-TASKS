@@ -1,0 +1,62 @@
+body, html{
+    background-color: grey;
+    align-content: center;
+    justify-content: center;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 96px;
+    
+}
+.card{
+    width: 300px;
+    height: 380px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: white;
+    background: rgb(116,109,238);
+    background: linear-gradient(149deg, rgba(116,109,238,1) 0%, rgba(135,237,212,1) 100%);
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+h2{
+    text-decoration: underline;
+    color: black;
+}
+P{
+    text-align: left;
+    margin-left: 50px;
+    color: black;
+}
+button{
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 7px;
+    border: none;
+}
+button:hover{
+    background: transparent;
+    border: 2px solid white;
+    color: aliceblue;
+    
+}
+.container{
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+}
+.cName,.cWeather{
+     color: red;
+}
+
+.text-center{
+    margin: 30px;
+}
