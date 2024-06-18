@@ -31,7 +31,7 @@ async function api() {
       var country_capital = document.createElement("p");
       country_capital.innerText = "CAPITAL : " + i.capital[0];
       data_cont.append(country_capital);
-      // console.log(i.capital[0]);
+      
 
       //Region
       var country_region = document.createElement("p");
