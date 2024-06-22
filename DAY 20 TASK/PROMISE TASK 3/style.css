@@ -1,0 +1,62 @@
+body {
+    margin: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black !important;
+    color: white !important ;
+    font-family: 'Times New Roman', Times, serif !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .heading {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .task{
+    text-decoration: underline;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+  }
+  
+  .card {
+    background: hsla(210, 13%, 50%, 1);
+    background: linear-gradient(270deg, hsla(210, 13%, 50%, 1) 30%, hsla(0, 0%, 96%, 1) 100%);
+    background: -moz-linear-gradient(270deg, hsla(210, 13%, 50%, 1) 30%, hsla(0, 0%, 96%, 1) 100%);
+    background: -webkit-linear-gradient(270deg, hsla(210, 13%, 50%, 1) 30%, hsla(0, 0%, 96%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#708090", endColorstr="#F5F5F5", GradientType=1 );
+    width: 300px;
+  }
+  .card-header {
+    background-image: linear-gradient(
+      305deg,
+      hsl(151, 59%, 76%),
+      hsl(202.429, 59%, 76%),
+      hsl(253.857, 59%, 76%),
+      hsl(305.286, 59%, 76%),
+      hsl(356.714, 59%, 76%),
+      hsl(48.143, 59%, 76%),
+      hsl(99.571, 59%, 76%)
+    );
+    color: black !important;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .card-body {
+    text-align: left;
+    font-weight: bold;
+  }
+  .card-img-top {
+    width: 300px;
+    height: 200px;
+    padding: 25px;
+  }
+  .card:hover {
+    cursor: pointer;
+    background: white;
+  }
